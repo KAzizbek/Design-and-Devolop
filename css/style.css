@@ -1,0 +1,696 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+#check{
+    display: none;
+
+}
+.menu {
+
+    font-size: 25px;
+    color: black;
+    float: right;
+    display: none;
+
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+body, html{
+    height: 100%;
+    overflow-x:hidden;
+    font-family:'Roboto', sans-serif;
+
+
+}
+
+.header{
+    width: 100%;
+    margin-top: 10px;
+   
+
+}
+#header{
+    position: fixed;
+    top: -100px;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 1;
+}
+.nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+
+}
+.links a{
+    padding: 20px;
+    color: #222;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    transition: 1s ease;
+
+
+}
+.links a:hover {
+    background:#7FFFD4 ;
+    width: 100%;
+}
+
+.nav img{
+    width: 5%;
+}
+
+.new{
+    background-image: url("../img/noutbuk.jpg");
+    background-size: 100% 750px;
+    height: 750px;
+    width: 100%;
+
+
+}
+.new1{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+
+}
+.new_proeck{
+    width: 30%;
+    margin-top: 150px;
+
+
+}
+
+
+
+
+.new_proeck a{
+    background: #7FFFD4;
+    text-decoration: none;
+    color:#000 ;
+    padding: 12px 32px;
+    position: relative;
+    top: 50px;
+}
+.new_proeck a:hover    {
+    transition: 2s ease;
+    width: 100%;
+    background: green;
+}
+.about{
+    width: 100%;
+    background: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+
+}
+.we{
+    width: 30%;
+    margin: 0 auto;
+
+}
+.you{
+    text-align: center;
+    font-size: 20px;
+    align-content: center;
+    padding: 20px;
+    color: black;
+}
+
+.we img{
+    width: 50%
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foto img{
+    width: 50%;
+    height: 520px;
+    over
+
+}
+.foto{
+    width: 100%;
+    background: #f5f5f5;
+    overflow: hidden;
+
+
+
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    align-items: center
+}
+
+.text{
+    width:35% ;
+    margin: 0 auto;
+}
+
+
+
+.text h1{
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+.us{
+    background: #ddd;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.desing{
+  text-align: left;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 15px;
+
+  width: 100%
+}
+
+
+.ux{
+    width: 75%;
+    background: #7FFFD4;
+}
+.web{
+    width: 90%;
+    background: #7FFFD4;
+}.marketing{
+    width: 65%;
+    background: #7FFFD4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.me{
+    background:  #7FFFD4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.maks{
+margin: 50px;
+padding-right: 60px;
+padding-left: 60px;
+align-content:start;
+}
+.papka {
+    position: relative;
+    left: 70px;
+    bottom: 50px;
+    width: 90%;
+
+
+}
+.papka p{
+    font-size: 10px;
+}
+
+
+
+
+.overlay{
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 2px;
+    transition: 3s;
+    background: #222;
+    opacity: 0.9;
+    overflow: hidden;
+
+}.icom{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+}
+
+
+
+
+
+
+
+.imgcard:hover .overlay{
+    height: 100%;
+
+
+}
+
+
+.first{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+.sekond {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-left: 30px;
+
+}
+.imgcard{
+    width: 24%;
+    margin-left: 5px;
+    position: relative;
+
+}
+.imgcard img{
+    width: 100%;
+}
+.maus{
+    display: flex;
+    justify-content: center;
+
+
+
+}
+.maus a{
+    text-decoration: none;
+    background: #E6E6FA;
+
+    padding: 40px 690px;
+}
+
+.dog{
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    width: 95%;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+
+
+
+}
+.haus p{
+    margin: 0 auto;
+    width: 40%;
+    margin-top: 5px;
+
+}
+.haus video{
+    width: 80%;
+    margin-top: 20px;
+}
+
+
+.are{
+    background: #f5f5f5;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 67px;
+
+
+}
+.core{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.core img{
+    width: 60px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.michael{
+    background: #7FFFD4;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.hopking{
+    width: 43%;
+    height: 250px;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 23px;
+}
+.hopking h5{
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+.mountion{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+.mountions{
+    width: 90%;
+    padding: px;
+
+
+
+}
+.mountions img{
+    padding: 40px;
+     margin-left: 9% ;
+}
+
+
+.need{
+    background: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.project{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+
+}
+.project input{
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border:none ;
+}
+.project textarea{
+    display: block;
+    height: 150px;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.project a{
+    background: #7FFFD4;
+    text-decoration: none;
+    color:#000 ;
+    padding: 12px 32px;
+    position: relative;
+    top: 30px;
+}
+.project p{
+    margin-bottom: 35px;
+    color:#222 ;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.project h1{
+   margin-bottom: 25px;
+    color:#222 ;
+
+}
+
+
+.foot{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+.foot-left{
+    width: 20%;
+    color: #fff;
+
+}
+.foot-left h1{
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.foot-left a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+
+}
+
+
+
+@media(max-width: 600px) {
+    .links{
+        position: fixed;
+        top: 0 ;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        background: #222;
+        opacity: 0.9;
+        right: -100%;
+        transition: 1s all;
+        height: 100vh;
+        z-index: 1;
+
+    }
+    .menu{
+        display: block;
+        color: black;
+
+    }
+#check:checked ~ .links{
+    right: 0 ;
+
+
+}
+.links a{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+}
+.header{
+    position: fixed;
+    z-index: 1;
+    
+}
+
+
+
+
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0 ;
+    
+    }
+    .new{
+        width: 100%;
+        background-size: cover;
+    }
+    .new1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .new_proeck{
+        width: 70%;
+        text-align: center;
+    }
+    .we{
+        width: 80%;
+
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        right: 50px;
+
+
+    }
+     .text {
+        width: 90%;
+
+
+
+    }
+    .foto img{
+        width: 90%;
+        margin: 0 auto;
+
+    }
+    .me{
+
+        align-items: center;
+        display: flex;
+
+            }
+    .maks{
+         width: 25%;
+         display: flex;
+         flex-direction: column;
+         padding-left: 10px;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 650px;
+
+    }
+    .imgcard{
+        width: 40%;
+        margin-bottom: 10px;
+
+    }
+    .maus{
+        margin-right: 40px;
+
+
+
+    }
+    .maus a{
+        width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+
+    }
+    .dog{
+        width: 100%;
+
+    }
+    .are{
+        width: 100%;
+
+        display: flex;
+        margin: 1px;
+        margin-top: 10px;
+    }
+    .core{
+        width: 30%;
+
+    }
+    .michael{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .hopking{
+        margin-top: 90px;
+        width: 80%;
+    }
+    .mountion{
+        width: 100%;
+
+
+    }
+    .mountions{
+        display: block;
+        align-items: center;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .mountions img{
+        width: 23%;
+
+    }
+    .need{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .project{
+        width: 60%;
+
+    }
+    .project p{
+        width: 80%;
+    }
+    .project a{
+       margin-top: 80px;
+    }
+
+    .foot{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        font-size: 10px;
+
+    }
+    .foot-left{
+        width: 30%;
+            }
+    .foot-left a{
+        padding-left: 50px;
+    }
+
+    }
